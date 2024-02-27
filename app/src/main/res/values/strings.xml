@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">ECInterviewTask</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="ok">OK</string>
+    <string name="cancel">Cancel</string>
+    <string name="title_today">Today</string>
+    <string name="title_competitions">Competitions</string>
+    <string name="title_favorites">Favorites</string>
+    <string name="title_more">More</string>
+    <string name="title_home">Home</string>
+    <string name="area">Area</string>
+    <string name="description">Description</string>
+    <string name="winner">Winner</string>
+    <string name="current_season">Current Season</string>
+    <string name="last_updated">Last Updated</string>
+    <string name="number_of_available_seasons">Number Of Available Seasons</string>
+    <string name="competition_type">"Competition Type: "</string>
+    <string name="competition_plan">Competition Plan</string>
+    <string name="competition_area">Area Name</string>
+    <string name="competition_code">Area Code</string>
+    <string name="current_season_start_date">Start Date</string>
+    <string name="current_season_end_date">End Date</string>
+    <string name="current_match_day">"Current Match Day: "</string>
+    <string name="coming_soon">Coming Soon</string>
+    <string name="no_internet_connection">No internet connection available</string>
+</resources>

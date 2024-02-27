@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/app_navigator"
+    app:startDestination="@id/navigation_competitions">
+
+    <fragment
+        android:id="@+id/navigation_splash"
+        android:name="com.marwa.ecinterviewtask.presentation.splash.SplashFragment"
+        android:label="fragment_splash"
+        tools:layout="@layout/fragment_splash">
+        <action
+            android:id="@+id/action_navigation_splash_to_navigation_main"
+            app:destination="@id/navigation_main" />
+    </fragment>
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.marwa.ecinterviewtask.presentation.home.HomeFragment"
+        android:label="fragment_home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_competitions"
+        android:name="com.marwa.ecinterviewtask.presentation.competitions.CompetitionsFragment"
+        android:label="fragment_competitions"
+        tools:layout="@layout/fragment_competitions" />
+    <fragment
+        android:id="@+id/navigation_favorites"
+        android:name="com.marwa.ecinterviewtask.presentation.favorites.FavoritesFragment"
+        android:label="FavoritesFragment"
+        tools:layout="@layout/fragment_favorites" />
+    <fragment
+        android:id="@+id/navigation_today"
+        android:name="com.marwa.ecinterviewtask.presentation.today.TodayFragment"
+        android:label="fragment_today"
+        tools:layout="@layout/fragment_today" />
+    <fragment
+        android:id="@+id/navigation_more"
+        android:name="com.marwa.ecinterviewtask.presentation.more.MoreFragment"
+        android:label="fragment_more"
+        tools:layout="@layout/fragment_more" />
+    <fragment
+        android:id="@+id/navigation_main"
+        android:name="com.marwa.ecinterviewtask.presentation.main.MainFragment"
+        android:label="MainFragment"
+        tools:layout="@layout/fragment_main" />
+
+</navigation>

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="deploymentTargetDropDown">
+    <value>
+      <entry key="app">
+        <State />
+      </entry>
+      <entry key="testItemClick()">
+        <State />
+      </entry>
+      <entry key="testItemCount()">
+        <State />
+      </entry>
+      <entry key="testViewHolderBinding()">
+        <State />
+      </entry>
+    </value>
+  </component>
+</project>
