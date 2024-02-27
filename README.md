@@ -8,14 +8,14 @@ Include screenshots of your application here.
 
 ## APIs Used
 
-- APIs are provided from the public service [Football Data](https://www.football-data.org/).
+- APIs are provided by the public service [Football Data](https://www.football-data.org/).
 - Create an account and generate your API token.
 - The generated API token is saved in secrets.properties which didn't upload in GitHub
 - Use the Competition API: [http://api.football-data.org/v4/competitions/](http://api.football-data.org/v4/competitions/).
 
 ## Features
 
--  This app use MVI Architecture Pattern
+-  This app uses the MVI Architecture Pattern
 -  Get data from APIs and cache retrieved data in EncryptedSharedPreferences.
 -  Show cached data and work offline when there's no internet connection.
 -  Prevent users from taking screenshots or recording the screen while opening the app.
